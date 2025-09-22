@@ -68,17 +68,17 @@ import Logo1 from '../assets/projects/logo/l1.png'
 import Logo2 from '../assets/projects/logo/l2.png'
 import Logo3 from '../assets/projects/logo/l3.png'
 import Logo4 from '../assets/projects/logo/l4.png'
-import Logo5 from '../assets/projects/logo/l5.JPG'
+import Logo5 from '../assets/projects/logo/l5.jpg'
 import Logo6 from '../assets/projects/logo/l6.png'
 const logoImages = [Logo1, Logo2, Logo3, Logo4, Logo5, Logo6]
 
 /* --- PROGETTO 2: Rebranding (6 immagini) --- */
-import Re1 from '../assets/projects/rebranding/re1.JPG'
-import Re2 from '../assets/projects/rebranding/re2.JPG'
-import Re3 from '../assets/projects/rebranding/re3.JPG'
-import Re4 from '../assets/projects/rebranding/re4.JPG'
-import Re5 from '../assets/projects/rebranding/re5.JPG'
-import Re6 from '../assets/projects/rebranding/re6.JPG'
+import Re1 from '../assets/projects/rebranding/re1.jpg'
+import Re2 from '../assets/projects/rebranding/re2.jpg'
+import Re3 from '../assets/projects/rebranding/re3.jpg'
+import Re4 from '../assets/projects/rebranding/re4.jpg'
+import Re5 from '../assets/projects/rebranding/re5.jpg'
+import Re6 from '../assets/projects/rebranding/re6.jpg'
 const rebrandingImages = [Re1, Re2, Re3, Re4, Re5, Re6]
 
 /* --- PROGETTO 3: App Design (6 immagini) --- */
