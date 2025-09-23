@@ -41,5 +41,4 @@
 </template>
 
 <script setup>
-// Nessuno script necessario
 </script>

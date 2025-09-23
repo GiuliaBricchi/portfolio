@@ -5,12 +5,11 @@
       class="fixed top-0 left-0 w-full h-20 flex items-center justify-between px-8 bg-white z-50 transition-transform duration-300"
       :class="{ '-translate-y-full': isHidden }"
     >
-      <!-- Left -->
+
       <div>
         <img :src="logo" alt="Logo" class="h-20" />
       </div>
 
-      <!-- Center (desktop only) -->
       <div class="hidden md:flex justify-center items-center bg-gray-200/50 px-6 py-2 rounded-full">
         <ul class="flex gap-6 font-bold text-gray-700">
           <li><a href="#about" class="hover:underline">about</a></li>
@@ -20,7 +19,6 @@
         </ul>
       </div>
 
-      <!-- Right -->
       <div class="flex items-center gap-2 flex-shrink-0">
         <button
           class="hidden md:flex items-center gap-2 px-4 py-2 rounded-full font-bold bg-gray-200/50 text-gray-700 hover:text-white hover:bg-gray-700 transition"
@@ -57,7 +55,7 @@
       </ul>
     </div>
 
-    <!-- Modal Start Project -->
+    <!-- Start Project -->
     <div v-if="isModalOpen" class="fixed inset-0 bg-black/70 flex items-center justify-center z-50 p-4">
       <div class="relative bg-white w-full max-w-lg rounded-xl shadow-lg p-6 overflow-y-auto max-h-[90vh]">
         <button

@@ -1,6 +1,5 @@
 <template>
   <section id="projects">
-    <!-- ---------- SCHERMATA INTRO ---------- -->
     <div class="project-intro">
       <h1>Projects</h1>
     </div>
@@ -63,7 +62,6 @@
 </template>
 
 <script setup>
-/* --- PROGETTO 1: Logo (6 immagini) --- */
 import Logo1 from '../assets/projects/logo/l1.png'
 import Logo2 from '../assets/projects/logo/l2.png'
 import Logo3 from '../assets/projects/logo/l3.png'
@@ -72,7 +70,6 @@ import Logo5 from '../assets/projects/logo/l5.jpg'
 import Logo6 from '../assets/projects/logo/l6.png'
 const logoImages = [Logo1, Logo2, Logo3, Logo4, Logo5, Logo6]
 
-/* --- PROGETTO 2: Rebranding (6 immagini) --- */
 import Re1 from '../assets/projects/rebranding/re1.jpg'
 import Re2 from '../assets/projects/rebranding/re2.jpg'
 import Re3 from '../assets/projects/rebranding/re3.jpg'
@@ -81,7 +78,6 @@ import Re5 from '../assets/projects/rebranding/re5.jpg'
 import Re6 from '../assets/projects/rebranding/re6.jpg'
 const rebrandingImages = [Re1, Re2, Re3, Re4, Re5, Re6]
 
-/* --- PROGETTO 3: App Design (6 immagini) --- */
 import App1 from '../assets/projects/app/app1.png'
 import App2 from '../assets/projects/app/app2.png'
 import App3 from '../assets/projects/app/app3.png'
@@ -92,7 +88,6 @@ const appDesignImages = [App1, App2, App3, App4, App5, App6]
 </script>
 
 <style scoped>
-/* ---------- FORZA NESSUNO SCROLL ORIZZONTALE ---------- */
 body, #projects {
   overflow-x: hidden;
   margin: 0;
@@ -100,7 +95,6 @@ body, #projects {
   box-sizing: border-box;
 }
 
-/* ---------- SCHERMATA INTRO ---------- */
 .project-intro {
   width: 100vw;
   height: 100vh;
@@ -122,7 +116,7 @@ body, #projects {
   border-radius: 12px;
 }
 
-/* ---------- SEZIONE PROGETTI FULL SCREEN ---------- */
+
 .project-detail {
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -136,7 +130,6 @@ body, #projects {
   box-sizing: border-box;
 }
 
-/* ---------- Background alternati ---------- */
 .project-default {
   background: #f8f8f8;
   color: #333;
@@ -197,7 +190,6 @@ body, #projects {
   max-width: 100%;
 }
 
-/* ---------- Responsive ---------- */
 @media (max-width: 1024px) {
   .project-detail {
     grid-template-columns: 1fr;

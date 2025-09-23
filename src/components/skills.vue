@@ -68,7 +68,7 @@ const skills = [
   object-fit: contain;
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
   .skills-section {
     padding: 4rem 1rem;

@@ -99,7 +99,6 @@ onMounted(() => {
   height: 450px;
 }
 
-/* Polaroid */
 .polaroid {
   position: absolute;
   top: 0;
@@ -172,7 +171,7 @@ onMounted(() => {
   }
 }
 
-/* Testo */
+
 .about-text {
   max-width: 500px;
 }
@@ -204,7 +203,7 @@ onMounted(() => {
   transform: translateY(-2px);
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
   .about {
     flex-direction: column;
